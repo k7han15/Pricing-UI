@@ -2,12 +2,8 @@ import {
   Box,
   Button,
   Heading,
-  ListItem,
-  Stack,
   Text,
-  VStack,
   HStack,
-  Icon,
   Flex,
 } from "@chakra-ui/react";
 import { CheckCircleIcon } from "@chakra-ui/icons";
@@ -40,12 +36,14 @@ export default function Princing() {
           <Button
             mx={"10px"}
             bg="#805AD5"
+            
             borderRadius={"8px"}
             w={{ base: "160px", md: "280px", lg: "280px" }}
             h="51px"
             fontWeight={"700"}
             fontSize="16px"
             color={"#F7FAFC"}
+            _hover={{ bg: '#700AD0' }}
           >
             Get Started
           </Button>
